@@ -14,4 +14,7 @@ export OCI_HOME="/opt/oracle/instantclient"
 export OCI_LIB_DIR="/opt/oracle/instantclient"
 export OCI_INCLUDE_DIR="/opt/oracle/instantclient/sdk/include"
 
+npm i -g nrm
+nrm add valudio http://npm.valudio.com
+nrm use valudio
 #npm i -g oracledb
