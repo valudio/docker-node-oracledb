@@ -8,7 +8,6 @@ ln -s libclntsh.so.12.1 libclntsh.so
 ln -s libocci.so.12.1 libocci.so
 
 export ORACLE_HOME=/opt/oracle/instantclient
-#export LD_LIBRARY_PATH=/opt/oracle/instantclient:$LD_LIBRARY_PATH
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$ORACLE_HOME
 
 export OCI_HOME="/opt/oracle/instantclient"
