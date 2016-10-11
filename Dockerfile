@@ -10,8 +10,7 @@ RUN apt-get update \
 
 RUN cd /opt/oracle && sh start.sh
 
-ENV ORACLE_HOME=/opt/oracle/instantclient
-ENV LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$ORACLE_HOME
+ENV LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/oracle/instantclient
 
 ENV OCI_HOME="/opt/oracle/instantclient"
 ENV OCI_LIB_DIR="/opt/oracle/instantclient"
