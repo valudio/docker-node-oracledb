@@ -1,7 +1,7 @@
 FROM python:3.5.2-slim
 MAINTAINER Valudio <development@valudio.com>
 
-ADD ./instantclient /opt/oracle
+ADD ./files /opt/oracle
 
 RUN apt-get update \
     && apt-get -y install unzip libaio1 curl make g++ \
