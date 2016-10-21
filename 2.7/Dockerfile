@@ -1,4 +1,4 @@
-FROM python:3.7.12-slim
+FROM python:2.7.12-slim
 MAINTAINER Valudio <development@valudio.com>
 
 ADD ../files /opt/oracle
