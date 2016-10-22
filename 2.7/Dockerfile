@@ -1,7 +1,7 @@
 FROM python:2.7.12-slim
 MAINTAINER Valudio <development@valudio.com>
 
-ADD ../files /opt/oracle
+ADD /../files /opt/oracle
 
 RUN apt-get update \
     && apt-get -y install unzip libaio1 curl make g++ \
